@@ -11,16 +11,13 @@
     align-items: center;
     margin: auto;
     transition: all .2s ease-in-out;
-    
-
   }
 
-  a{
+  p{
     cursor: pointer;
-    font-family: 'Montserrat';
-    
-     
+    font-family: 'Montserrat'; 
   }
+
   .but1:hover, .but2:hover,.but3:hover {
     cursor: pointer;
     -ms-transform: scale(1.1); /* IE 9 */

@@ -20,17 +20,17 @@ const Menu = ({color}) => (
 
     <div className="but1">
       <ScrollTo selector={`#about`}>
-        <a href="/#"> About.</a>
+        <p> About.</p>
       </ScrollTo>
     </div>
     <div className="but2">
     <ScrollTo selector={`#proj`}>
-      <a href="/#"> Projects.</a>
+      <p> Projects.</p>
     </ScrollTo>
     </div>
     <div className="but3">
       <ScrollTo selector={`#contact`}>
-        <a href="/#">Contact.</a>
+        <p>Contact.</p>
       </ScrollTo>
     </div>
     
