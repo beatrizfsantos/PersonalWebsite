@@ -1,8 +1,8 @@
 import * as React from 'react';
-import logo from './beatrizsantos.svg';
+import logo from './beatrizsantos.png';
 import profilePic from './profilePic.jpg';
 import profilePicCartoon from './profilePicCartoon.png'
-import about from './about.svg'
+import about from './about.png'
 import face from './facebook.svg'
 import linkedin from './linkedin.svg'
 import insta from './instagram.svg'
@@ -12,10 +12,10 @@ import linkedinW from './linkedinW.svg'
 import instaW from './instagramW.svg'
 import gitW from './githubW.svg'
 import line from './line.svg'
-import proj from './Projects.svg'
+import proj from './Projects.png'
 import trio from './trio.png'
 import lexie from './Lexie.png'
-import sayhi from './sayhi.svg'
+import sayhi from './sayhi.png'
 import './App.css';
 import Menu from "./Menu/menu.js";
 import AliceCarousel from 'react-alice-carousel';
@@ -109,7 +109,7 @@ function App() {
                 <p id="p3">Born in 10/11/1999</p>
                 <h3 id="h4">Academic life</h3>
                 <p>I have a degree in computer engineering from the University of Coimbra. Right now I'm finishing my last year of Masters in Software Engineering, also at the same university.</p>
-                <p>One area that always aroused my interest was Website Design.</p>
+                <p>One area that always picked my interest was Website Design.</p>
                 <p>Other areas I'm interested in are Artificial Intelligence and BlockChain. </p>
                 <h3 id="h5">Curiosities about me</h3>
                 <p> I come from a small village called Coruche, and what I like most about this location is the peace and tranquility that exists there in contrast to the busy city life.</p>
