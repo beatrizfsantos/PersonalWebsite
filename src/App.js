@@ -20,8 +20,7 @@ import './App.css';
 import Menu from "./Menu/menu.js";
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
-import { useAnimation, motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 
 function App() {
@@ -33,18 +32,14 @@ function App() {
   } 
 
   const items = [
-    <img className="trio" src={trio} onDragStart={handleDragStart}  onClick={() => imageClick()} />,
-    <img className="lexie" src={lexie} onDragStart={handleDragStart} />,
+    <img className="trio" src={trio} onDragStart={handleDragStart}  onClick={() => imageClick() } alt=""/>,
+    <img className="lexie" src={lexie} onDragStart={handleDragStart} alt=""/>,
   ];
 
   const responsive = {
     0: { items: 1 },
     1024: { items: 2 },
   };
-
-  
-  const controls = useAnimation();
-  const [ref, inView] = useInView();
 
   return (
     <div className="App">
@@ -61,15 +56,15 @@ function App() {
             type: "spring",
             duration: 1.5,
           }}>
-          <img className="i1" style={{ cursor: "pointer" }} src={git} width="30px"
+          <img className="i1" style={{ cursor: "pointer" }} src={git} width="30px" alt=""
             onClick={() => window.open("https://github.com/beatrizfsantos", "_blank")}/>
-          <img className="i4" style={{ cursor: "pointer" }} src={linkedin} width="30px"
+          <img className="i4" style={{ cursor: "pointer" }} src={linkedin} width="30px" alt=""
             onClick={() => window.open("https://www.linkedin.com/in/beatriz-dos-santos-1b3007180/", "_blank")}/>
-          <img className="i2" style={{ cursor: "pointer" }} src={face} width="30px"
+          <img className="i2" style={{ cursor: "pointer" }} src={face} width="30px"alt=""
             onClick={() => window.open("https://www.facebook.com/bia.f.dos.santos", "_blank")}/>
-          <img className="i3" style={{ cursor: "pointer" }} src={insta} width="30px"
+          <img className="i3" style={{ cursor: "pointer" }} src={insta} width="30px" alt=""
             onClick={() => window.open("https://www.instagram.com/beatriz.fsantos/", "_blank")}/>
-          <img className="line" src={line} />
+          <img className="line" src={line} alt=""/>
         </motion.div>
         
         <div className='logo_col'>
@@ -90,10 +85,10 @@ function App() {
       <div id='about' className='AboutPage'>
         <div className='about'>
           <div className='aboutTitle'>
-            <img src={about} className='aboutPhoto'/>
+            <img src={about} className='aboutPhoto' alt=""/>
           </div>
           <div className='profile'>
-            <img src={profilePicCartoon} className='profilePic'
+            <img src={profilePicCartoon} className='profilePic' alt=""
               onMouseOver={e => e.currentTarget.src = profilePic}
               onMouseOut={e => e.currentTarget.src= profilePicCartoon} />
           </div>
@@ -129,7 +124,7 @@ function App() {
         </div>
       <div id="proj" className="ProjectsPage">
         <div className='projTitle'>
-          <img src={proj} className='project'/> 
+          <img src={proj} className='project' alt=""/> 
         </div>
         <div className='projects'>
           <AliceCarousel
@@ -146,17 +141,17 @@ function App() {
       </div>
       <div id="contact" className="ContactPage">
         <div className='sayhi'>
-          <img src={sayhi} className='hi'/> 
+          <img src={sayhi} className='hi' alt=""/> 
         </div>
 
         <motion.div className="icons">
-          <img className="i5" style={{ cursor: "pointer" }} src={gitW} width="60px"
+          <img className="i5" style={{ cursor: "pointer" }} src={gitW} width="60px" alt=""
             onClick={() => window.open("https://github.com/beatrizfsantos", "_blank")}/>
-          <img className="i6" style={{ cursor: "pointer" }} src={linkedinW} width="60px"
+          <img className="i6" style={{ cursor: "pointer" }} src={linkedinW} width="60px" alt=""
             onClick={() => window.open("https://www.linkedin.com/in/beatriz-dos-santos-1b3007180/", "_blank")}/>
-          <img className="i7" style={{ cursor: "pointer" }} src={faceW} width="60px"
+          <img className="i7" style={{ cursor: "pointer" }} src={faceW} width="60px" alt=""
             onClick={() => window.open("https://www.facebook.com/bia.f.dos.santos", "_blank")}/>
-          <img className="i8" style={{ cursor: "pointer" }} src={instaW} width="60px"
+          <img className="i8" style={{ cursor: "pointer" }} src={instaW} width="60px" alt=""
             onClick={() => window.open("https://www.instagram.com/beatriz.fsantos/", "_blank")}/>
         </motion.div>
 
