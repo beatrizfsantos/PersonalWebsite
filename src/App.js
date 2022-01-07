@@ -109,7 +109,7 @@ function App() {
                 <p id="p3">Born in 10/11/1999</p>
                 <h3 id="h4">Academic life</h3>
                 <p>I have a degree in computer engineering from the University of Coimbra. Right now I'm finishing my last year of Masters in Software Engineering, also at the same university.</p>
-                <p>One area that always picked my interest was Website Design.</p>
+                <p>One area that always picked my interest was Web Design.</p>
                 <p>Other areas I'm interested in are Artificial Intelligence and BlockChain. </p>
                 <h3 id="h5">Curiosities about me</h3>
                 <p> I come from a small village called Coruche, and what I like most about this location is the peace and tranquility that exists there in contrast to the busy city life.</p>
