@@ -1,0 +1,48 @@
+{
+  "name": "personal_page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@progress/kendo-react-layout": "^4.13.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@thumbtack/thumbprint-react": "^14.4.1",
+    "@trendyol-js/react-carousel": "^2.0.1",
+    "framer-motion": "^5.5.5",
+    "react": "^17.0.2",
+    "react-alice-carousel": "^2.5.1",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^8.33.1",
+    "react-scripts": "5.0.0",
+    "react-scroll-into-view": "^1.10.1",
+    "react-split-pane": "^0.1.92",
+    "style-components": "^0.1.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
